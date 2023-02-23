@@ -1,0 +1,70 @@
+
+/**
+Predeterminado para descripciones
+*/
+*{
+    color:blue
+}
+p, span
+{color: red;
+width: 300px;
+border: 15px groove maroon;
+padding: 50px;
+margin: 20px;}
+/**
+Predeterminado para Titulos
+*/
+h1 
+{ 
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    width: 300px;
+    border-style: dotted solid double;
+    border-width: thick;
+    padding: 50px;
+    margin: 20px;}
+/**
+Predeterminado para Subtitulos
+*/
+h2 
+{color: black;
+width: 300px;
+border: 15px double black;
+padding: 50px;
+margin: 20px;}
+
+/**
+Para identificar y conectar con un elemento para aplicarle propiedades diferentes utilizamos el #.
+en el codigo HTML luego de etiquetar al elemento le asignamos ID
+ y entre comillas añadimos el nombre para identificarlo en CSS
+*/
+#p1{
+    color: black;
+    border: 30px dotted blue;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+}
+
+#spam1{
+    color: black;
+    border: 30px dotted blue;
+    padding: 10px 15px 10px 15px;
+    margin: 10px;
+}
+
+/**
+Para asignar Clases de diferentes estilos a muchos elementos utilizamos el .
+Luego le asignamos el nombre en CSS y al momento de codearlo en HTML al etiquetar al elemento le asignamos el atributo CLASS y entre comillas el nombre de la Clase que queremos utilizar.
+*/
+.Clase1{
+    font-weight: bold;
+    border: solid black;
+    color: red;
+}
+
+/**
+Para determinar el Responsive Grid-View se asigna la siguiente propiedad
+*/
+*{
+    box-sizing: border-box;
+}
