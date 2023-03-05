@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forrmulario con css</title>
+    <link rel="stylesheet" href="CSS-Ejemplos.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+<div class="container">
+    <form>
+    <!--Con el atributo required indicamos al usuario que el campo es requisito requerido-->    
+        <label for="Nombre">Nombre</label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre" required>
+        <label for="Apellido">Apellido</label>
+        <input type="text" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido">
+    <!--Con select creamos una grilla para seleccionar opciones-->    
+    <label for="pais">Pais</label>    
+    <select name="pais" id="pais">
+    <!-- Con disable selected indicamos que la opcion no es seleccionable, unicamente le indicamos al usuario que debe seleccionar-->
+            <option disabled selected>Seleccionesu pais de origen</option>
+            <option>Argentina</option>
+            <option>Mexico</option>
+        </select>
+    <button type="submit">Enviar</button>
+    </form>
+</div>
+
+</body>
+</html>

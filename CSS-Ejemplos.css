@@ -1,0 +1,59 @@
+
+*
+{
+    box-sizing: border-box;
+
+}
+body
+{
+   background-color:#E88597;
+}
+
+.container
+{
+   background-color:#F3CBD2;
+   width: 500px;
+   border-radius: 20px;
+   margin: auto;
+   padding: 20px;
+}
+
+input[type=text], select, textarea
+{
+    width:100%; 
+    padding: 10px;
+    border: 2px solid rgb(224, 73, 73);
+    border-radius: 10px;
+    color: black;
+    resize: vertical;
+}
+label
+{
+padding: 5px;
+display: block; /* respeta y bloquea a cada box y sus dimensiones **/
+}
+input:focus,select:focus
+{
+    border: 5px solid rgb(223, 48, 77) ;
+    background-color: rgb(247, 158, 158);
+}
+::placeholder
+{
+    color: gray;
+}
+button
+{
+    width: 20%;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 20px;
+    cursor: pointer; /*Cambia el icono del cursor **/
+    display: block;
+}
+button:hover /* Se aplicaran las propiedades cuando pase el evento en el elemento**/
+{
+   border: 2px solid rgb(223, 48, 77) ;
+   background-color: rgb(247, 158, 158);
+}
